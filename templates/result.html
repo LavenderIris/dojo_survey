@@ -1,0 +1,21 @@
+<html>
+
+<head>
+    <title>What's my Name?</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <h3><u>Submitted Info</u></h3>
+    <div id="a">
+        <p>Name: {{name}}</p>
+        <p>Dojo Location: {{location}}</p>
+        <p>Favorite Language: {{language}}</p>
+        <p>Comment: {{comment}}</p>
+    </div>
+    <button>Go back</button>
+</body>
+
+</html>
